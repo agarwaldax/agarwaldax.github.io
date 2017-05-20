@@ -4,16 +4,20 @@ body {
   padding: 0;
   font-family: "Rubik", sans-serif;
   text-align: center;
-  position: relative; }
+  position: relative;
+}
 
 header {
-  margin: 6em auto; }
+  margin: 6em auto;
+}
 
 h1 {
-  font-size: 4em; }
+  font-size: 4em;
+}
 
 header span {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 main a {
   text-decoration: none;
@@ -22,33 +26,42 @@ main a {
   padding: 2em;
   display: block;
   max-width: 25em;
-  border: solid thin rgba(0, 0, 0, 0.3); }
+  border: solid thin rgba(0, 0, 0, 0.3);
+}
 
 a:hover {
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
 footer {
   position: relative;
   margin: 8em auto 2em auto;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center; }
+  text-align: center;
+}
 
 footer a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 footer a:hover {
-  background: none; }
+  background: none;
+}
 
 svg {
   height: 4em;
   display: inline-block;
-  margin: auto 1em; }
+  margin: auto 1em;
+}
 
 path {
-  fill: #ffffff; }
+  fill: #ffffff;
+}
 
 svg:hover path {
-  fill: #0effec; }
+  fill: #0effec;
+}
+
 
 /*# sourceMappingURL=style.css.map */
