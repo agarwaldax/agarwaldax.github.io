@@ -13,8 +13,17 @@ title: Welcome to Middleman
 </svg>
 
 <h1>
-  Middleman is Runninggg
+  Creative Technologist delivering immersive digital experiences.
 </h1>
+
+<ol>
+  <% data.projects.each do |proj| %>
+  <li>
+  <%= proj.name %><br>
+  <%= proj.about %><br><br>
+  </li>
+  <% end %>
+</ol>
 
 <%= link_to(
   "Read Documentation",

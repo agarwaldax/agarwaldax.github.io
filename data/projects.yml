@@ -1,98 +1,97 @@
-projects:
-  - name: Crimson Moon Records
-    about: Developed a website for a recording and audio engineering studio to increase their online presence
-    tags:
-      - design
-      - code
+- name: Crimson Moon Records
+  about: Developed a website for a recording and audio engineering studio to increase their online presence
+  tags:
+    - design
+    - code
 
-  - name: Iceburg
-    about: Created a landing page to market the client's new app launch on the iOS App Store
-    tags:
-      - design
-      - code
+- name: Iceburg
+  about: Created a landing page to market the client's new app launch on the iOS App Store
+  tags:
+    - design
+    - code
 
-  - name: Elpis
-    about: Refreshed this open source Pandora player's design to improve aesthetics and usability
-    tags:
-      - design
-      - code
-      - C#
+- name: Elpis
+  about: Refreshed this open source Pandora player's design to improve aesthetics and usability
+  tags:
+    - design
+    - code
+    - C#
 
-  - name: Linker Logic
-    about: Redesigned company website to show newly offered services and showcase recently completed projects
-    tags:
-      - design
-      - code
-      - PHP
+- name: Linker Logic
+  about: Redesigned company website to show newly offered services and showcase recently completed projects
+  tags:
+    - design
+    - code
+    - PHP
 
-  - name: LL Brand
-    about: Crafted a brand guide showcasing Linker Logic Technologies' branding standards, including color and type and logo usage
-    tags:
-      - design
+- name: LL Brand
+  about: Crafted a brand guide showcasing Linker Logic Technologies' branding standards, including color and type and logo usage
+  tags:
+    - design
 
-  - name: UNC Website
-    about: Implemented a website aggregating all UNC entrepreneurial offerings into an accessible and mobile friendly space
-    tags:
-      - design
-      - code
-      - research
+- name: UNC Website
+  about: Implemented a website aggregating all UNC entrepreneurial offerings into an accessible and mobile friendly space
+  tags:
+    - design
+    - code
+    - research
 
-  - name: Measurement Inc
-    about: Overhauled MI's corporate website to improve usability and provide more meaningful content
-    tags:
-      - design
-      - code
-      - Drupal
+- name: Measurement Inc
+  about: Overhauled MI's corporate website to improve usability and provide more meaningful content
+  tags:
+    - design
+    - code
+    - Drupal
 
-  - name: Money Manager
-    about: Designed an app that rethinks how roomates split costs
-    tags:
-      - design
-      - code
-      - mobile
+- name: Money Manager
+  about: Designed an app that rethinks how roomates split costs
+  tags:
+    - design
+    - code
+    - mobile
 
-  - name: Pachinko 3D
-    about: A 3D game of space themed Pachinko, Japanese pinball
-    tags:
-      - design
-      - code
-      - Unity 3D
+- name: Pachinko 3D
+  about: A 3D game of space themed Pachinko, Japanese pinball
+  tags:
+    - design
+    - code
+    - Unity 3D
 
-  - name: Social Wall
-    about: Building a space exploration experience for a museum to celebrate Appolo's 50th anniversary
-    tags:
-      - design
-      - code
-      - installation
+- name: Social Wall
+  about: Building a space exploration experience for a museum to celebrate Appolo's 50th anniversary
+  tags:
+    - design
+    - code
+    - installation
 
-  - name: Watson Accelerator
-    about: Reimagining the experience of Watson Experience centers
-    tags:
-      - design
-      - design thinking
-      - Watson
+- name: Watson Accelerator
+  about: Reimagining the experience of Watson Experience centers
+  tags:
+    - design
+    - design thinking
+    - Watson
 
-  - name: Mobile for IBM Coud
-    about: Exploring how IBM Cloud can leverage mobile to build a developer community
-    tags:
-      - design
-      - design thinking
-      - cloud
-      - mobile
+- name: Mobile for IBM Coud
+  about: Exploring how IBM Cloud can leverage mobile to build a developer community
+  tags:
+    - design
+    - design thinking
+    - cloud
+    - mobile
 
-  - name: Sketch Notes
-    about: A tool that lets designers add comments to artboards and export them to share as PDFs
-    tags:
-      - design
-      - code
-      - CocoaScript
-      - JavaScript
+- name: Sketch Notes
+  about: A tool that lets designers add comments to artboards and export them to share as PDFs
+  tags:
+    - design
+    - code
+    - CocoaScript
+    - JavaScript
 
-  - name: Northstar
-    about: An iOS app that uses machine learning to identify and alert nearby users of wildfires to prevent disasters like Paradise
-    tags:
-      - design
-      - code
-      - Swift
-      - mobile
-      - Watson
+- name: Northstar
+  about: An iOS app that uses machine learning to identify and alert nearby users of wildfires to prevent disasters like Paradise
+  tags:
+    - design
+    - code
+    - Swift
+    - mobile
+    - Watson
