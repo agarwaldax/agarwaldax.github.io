@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Martel:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Martel:900&display=swap');
 body {
-  background-color: #fbc547;
+  background-color: #ffffff;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  font-family: 'Catamaran', sans-serif;
+  padding: 0;
   text-align: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 a {
@@ -18,7 +19,180 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.title {
+  font-family: 'Martel', serif;
+  font-size: 64px;
+  text-align: left;
+}
+.subtitle {
+  font-size: 36px;
+  color: rgba(#000, 0.6);
+  text-align: left;
+}
+
+.logo {
+  position: block;
+  margin: 50px 0;
+  animation: seekhome 3s;
+}
+.logo_char {
+  display: inline-block;
+  font-size: 40px;
+}
+.logo_char:first-of-type {
+  animation: fadedown 3s;
+}
+.logo_char:last-of-type {
+  animation: fadeup 3s;
+}
+
+
+main {
+  animation: fadein 4s;
+}
+.about h3 {
+  position: fixed;
+  bottom: 100px;
+  left: 10%;
+  font-size: 48px;
+  color: rgba($color: #fff, $alpha: 1);
+  z-index: 1;
+  padding: 50px;
+}
+.work h3 {
+  position: fixed;
+  bottom: 100px;
+  right: 10%;
+  font-size: 48px;
+  color: rgba($color: #fff, $alpha: 1);
+  z-index: 1;
+  padding: 50px;
+}
+.work_text:hover + .work_bkg {
+  right: calc(-45vw + 25vh);
+}
+.work_bkg {
+  position: fixed;
+  right: calc(-45vw + 20vh);
+  bottom: 0;
+  transform: scale(2, 2);
+  height: auto;
+  fill: rgb(29, 61, 241);
+  animation: fadeinrightpanel 4.1s;
+  transition: right 0.5s;
+}
+.about_text:hover + .about_bkg {
+  left: calc(-75vw + 35vh);
+}
+.about_bkg {
+  transform: rotateY(180deg);
+  position: fixed;
+  left: calc(-75vw + 30vh);
+  bottom: 0;
+  fill: rgb(7, 18, 80);
+  animation: fadeinleftpanel 4.13s;
+  transition: left 0.5s;
+}
+
+
+
+
+@keyframes seekhome {
+  0% {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+  75% {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+  85% {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  100% {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes fadedown {
+  0% {
+      opacity: 0;
+      font-size: 300px;
+      transform: translate(56%, -15%) rotate(-90deg);
+   }
+   25% {
+      opacity: 1;
+      font-size: 300px;
+      transform: translate(56%, -15%) rotate(-90deg);
+   }
+   40% {
+      font-size: 200px;
+      transform: translate(-20%, -15%) rotate(-90deg);
+   }
+   65% {
+      font-size: 200px;
+      transform: translate(-20%, -15%) rotate(0deg);
+   }
+   75% {
+      font-size: 200px;
+      transform: translate(-20%, -15%) rotate(0deg);
+   }
+   100% {
+      transform: none;
+   }
+}
+
+@keyframes fadeup {
+  0% {
+      opacity: 0;
+      font-size: 300px;
+      transform: translate(-56%, 15%) rotate(180deg);
+   }
+   25% {
+      opacity: 1;
+      font-size: 300px;
+      transform: translate(-56%, 15%) rotate(180deg);
+   }
+   40% {
+      font-size: 200px;
+      transform: translate(20%, 15%) rotate(180deg);
+   }
+   65% {
+      font-size: 200px;
+      transform: translate(20%, 15%) rotate(0deg);
+   }
+   75% {
+      font-size: 200px;
+      transform: translate(20%, 15%) rotate(0deg);
+   }
+   100% {
+      transform: none;
+   }
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    75% { opacity: 0; transform: translateY(100px) }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeinrightpanel {
+    0% { opacity: 0; }
+    75% { opacity: 0; right: -100vw;}
+    100% { opacity: 1; }
+}
+@keyframes fadeinleftpanel {
+    0% { opacity: 0; }
+    75% { opacity: 0; left: -200vw;}
+    100% { opacity: 1; }
 }
