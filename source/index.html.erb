@@ -14,9 +14,10 @@ title: Daxit's Portfolio
   <% data.projects.each do |proj| %>
     <% if !proj.ignore %>
       <div class="project">
-        <a href="<%= proj.link %>">
+        <a target="_blank" href="<%= proj.link %>">
           <div class="thumbnail">
             <img src="images/proj/<%= proj.thumbnail %>">
+            <div class="action">VIEW</div>
           </div>
         </a>
         <h1 class="title"><%= proj.name %></h1>

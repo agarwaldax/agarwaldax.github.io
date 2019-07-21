@@ -1,6 +1,7 @@
 - name: Sketch Notes
   about: A a tool that lets designers add comments to artboards and export them to share as PDFs
-  thumbnail: unce1.jpg
+  thumbnail: sketchnotes.png
+  link: https://github.com/agarwaldax/sketch-notes
   company: IBM
   logo: ibm.png
   tags:
@@ -10,7 +11,8 @@
 
 - name: Northstar
   about: An iOS app that uses machine learning to identify and alert nearby users of wildfires to prevent disasters like Paradise
-  thumbnail: unce1.jpg
+  thumbnail: northstar.png
+  link: https://github.com/agarwaldax/cfc_northstar
   company: IBM
   logo: ibm.png
   tags:
@@ -19,8 +21,10 @@
     - mobile
 
 - name: Measurement Inc
+  ignore: true
   about: A complete redesign of the corporate website to improve usability and provide more meaningful content
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: Measurement Inc
   logo: ibm.png
   tags:
@@ -30,7 +34,8 @@
 
 - name: Elpis
   about: A redesign and reimagining of a desktop music player for Pandora to improve aesthetics and usability
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link: https://github.com/adammhaile/Elpis/pull/159
   company: Personal
   logo: ibm.png
   tags:
@@ -40,7 +45,8 @@
 
 - name: Crimson Moon Records
   about: A website for a recording and audio engineering studio to help increase their online presence
-  thumbnail: unce1.jpg
+  thumbnail: crimsonmoon.png
+  link: https://github.com/agarwaldax/CrimsonMoonRecords/tree/master
   company: Freelance
   logo: ibm.png
   tags:
@@ -49,8 +55,10 @@
     - web
 
 - name: Linker Logic
+  ignore: true
   about: A company website overhaul to show newly offered services and showcase recently completed projects
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: Linker Logic
   logo: ibm.png
   tags:
@@ -61,15 +69,18 @@
 - name: LL Brand
   ignore: true
   about: A brand guide that establishes Linker Logic Technologies' branding standards, including color, type and logo usage
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: Linker Logic
   logo: ibm.png
   tags:
     - design
 
 - name: Iceburg
+  ignore: true
   about: A landing page to market the client's new app launch on the iOS App Store
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: Linker Logic
   logo: ibm.png
   tags:
@@ -78,8 +89,9 @@
     - web
 
 - name: UNC Entrepreneurship Website
-  about: A website aggregating all UNC entrepreneurial offerings into an accessible and mobile friendly space
-  thumbnail: unce1.jpg
+  about: A website aggregating all University of Chapel Hill entrepreneurial offerings into an accessible and mobile friendly space
+  thumbnail: unce.png
+  link: https://github.com/agarwaldax/unce
   company: Linker Logic
   logo: ibm.png
   tags:
@@ -90,7 +102,8 @@
 - name: Money Manager
   ignore: true
   about: An app that rethinks rethinks how roomates split costs
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: Personal
   logo: ibm.png
   tags:
@@ -99,8 +112,10 @@
     - mobile
 
 - name: Social Wall
+  ignore: true
   about: A space exploration exhibit to help kids learn about the solar system in celebration of Appolo's 50th anniversary
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link: https://github.com/NCSUMobiles/spring18_socialwall
   company: NC Museum of Life & Science
   logo: ibm.png
   tags:
@@ -111,7 +126,8 @@
 - name: Watson Accelerator
   ignore: true
   about: A reimagining of Watson Experience centers
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: IBM
   logo: ibm.png
   tags:
@@ -120,7 +136,8 @@
 - name: Mobile for IBM Coud
   ignore: true
   about: An exploration of how IBM Cloud can leverage mobile to build a developer community to advocate for and improve their offerings
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: IBM
   logo: ibm.png
   tags:
@@ -128,8 +145,10 @@
     - mobile
 
 - name: Pachinko 3D
+  ignore: true
   about: A 3D game of space themed Pachinko, Japanese pinball
-  thumbnail: unce1.jpg
+  thumbnail: elpis.png
+  link:
   company: Personal
   logo: ibm.png
   tags:
