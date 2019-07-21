@@ -4,29 +4,35 @@ title: Daxit's Portfolio
 
 <header>
   <div class="logo">
-  <div class="logo_char">D</div>
-  <div class="logo_char">A</div>
+    <div class="logo_char">D</div>
+    <div class="logo_char">A</div>
   </div>
-
+  <span class="name">Daxit Agarwal</span>
 </header>
 
-<main>
-<h2 class="subtitle">Hi, I'm Daxit Agarwal</h2>
-<h1 class="title">
-  A Creative Technologist <br> who delivers immersive <br> digital experiences.
-</h1>
-
+<main class="projects">
+  <% data.projects.each do |proj| %>
+    <% if !proj.ignore %>
+      <div class="project">
+        <a href="<%= proj.link %>">
+          <div class="thumbnail">
+            <img src="images/proj/<%= proj.thumbnail %>">
+          </div>
+        </a>
+        <h1 class="title"><%= proj.name %></h1>
+        <p class="about"><%= proj.about %></p>
+        <div class="metadata">
+          <div class="company">
+            For <span class="company_name"><%= proj.company %></span>
+          </div>
+          <div class="tags">
+            <% proj.tags.each do |tag| %>
+              <div class="tag <%= tag %>"><%= tag %></div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
 </main>
-
-<div class="about">
-  <h3 class="about_text">About</h3>
-  <svg class="about_bkg" preserveAspectRatio="none" viewBox="0 0 100 100">
-      <polygon points="100,100 100,0 0,100" opacity="1"></polygon>
-  </svg>
-</div>
-<div class="work">
-  <h3 class="work_text">Work</h3>
-  <svg class="work_bkg" preserveAspectRatio="none" viewBox="0 0 100 100">
-      <polygon points="100,100 100,0 0,100" opacity="1"></polygon>
-  </svg>
 </div>

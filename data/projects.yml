@@ -1,97 +1,138 @@
-- name: Crimson Moon Records
-  about: Developed a website for a recording and audio engineering studio to increase their online presence
+- name: Sketch Notes
+  about: A a tool that lets designers add comments to artboards and export them to share as PDFs
+  thumbnail: unce1.jpg
+  company: IBM
+  logo: ibm.png
   tags:
     - design
     - code
+    - app
 
-- name: Iceburg
-  about: Created a landing page to market the client's new app launch on the iOS App Store
+- name: Northstar
+  about: An iOS app that uses machine learning to identify and alert nearby users of wildfires to prevent disasters like Paradise
+  thumbnail: unce1.jpg
+  company: IBM
+  logo: ibm.png
   tags:
     - design
     - code
-
-- name: Elpis
-  about: Refreshed this open source Pandora player's design to improve aesthetics and usability
-  tags:
-    - design
-    - code
-    - C#
-
-- name: Linker Logic
-  about: Redesigned company website to show newly offered services and showcase recently completed projects
-  tags:
-    - design
-    - code
-    - PHP
-
-- name: LL Brand
-  about: Crafted a brand guide showcasing Linker Logic Technologies' branding standards, including color and type and logo usage
-  tags:
-    - design
-
-- name: UNC Website
-  about: Implemented a website aggregating all UNC entrepreneurial offerings into an accessible and mobile friendly space
-  tags:
-    - design
-    - code
-    - research
+    - mobile
 
 - name: Measurement Inc
-  about: Overhauled MI's corporate website to improve usability and provide more meaningful content
+  about: A complete redesign of the corporate website to improve usability and provide more meaningful content
+  thumbnail: unce1.jpg
+  company: Measurement Inc
+  logo: ibm.png
   tags:
     - design
     - code
-    - Drupal
+    - web
+
+- name: Elpis
+  about: A redesign and reimagining of a desktop music player for Pandora to improve aesthetics and usability
+  thumbnail: unce1.jpg
+  company: Personal
+  logo: ibm.png
+  tags:
+    - design
+    - code
+    - app
+
+- name: Crimson Moon Records
+  about: A website for a recording and audio engineering studio to help increase their online presence
+  thumbnail: unce1.jpg
+  company: Freelance
+  logo: ibm.png
+  tags:
+    - design
+    - code
+    - web
+
+- name: Linker Logic
+  about: A company website overhaul to show newly offered services and showcase recently completed projects
+  thumbnail: unce1.jpg
+  company: Linker Logic
+  logo: ibm.png
+  tags:
+    - design
+    - code
+    - web
+
+- name: LL Brand
+  ignore: true
+  about: A brand guide that establishes Linker Logic Technologies' branding standards, including color, type and logo usage
+  thumbnail: unce1.jpg
+  company: Linker Logic
+  logo: ibm.png
+  tags:
+    - design
+
+- name: Iceburg
+  about: A landing page to market the client's new app launch on the iOS App Store
+  thumbnail: unce1.jpg
+  company: Linker Logic
+  logo: ibm.png
+  tags:
+    - design
+    - code
+    - web
+
+- name: UNC Entrepreneurship Website
+  about: A website aggregating all UNC entrepreneurial offerings into an accessible and mobile friendly space
+  thumbnail: unce1.jpg
+  company: Linker Logic
+  logo: ibm.png
+  tags:
+    - design
+    - code
+    - web
 
 - name: Money Manager
-  about: Designed an app that rethinks how roomates split costs
+  ignore: true
+  about: An app that rethinks rethinks how roomates split costs
+  thumbnail: unce1.jpg
+  company: Personal
+  logo: ibm.png
   tags:
     - design
     - code
+    - mobile
+
+- name: Social Wall
+  about: A space exploration exhibit to help kids learn about the solar system in celebration of Appolo's 50th anniversary
+  thumbnail: unce1.jpg
+  company: NC Museum of Life & Science
+  logo: ibm.png
+  tags:
+    - design
+    - code
+    - app
+
+- name: Watson Accelerator
+  ignore: true
+  about: A reimagining of Watson Experience centers
+  thumbnail: unce1.jpg
+  company: IBM
+  logo: ibm.png
+  tags:
+    - design
+
+- name: Mobile for IBM Coud
+  ignore: true
+  about: An exploration of how IBM Cloud can leverage mobile to build a developer community to advocate for and improve their offerings
+  thumbnail: unce1.jpg
+  company: IBM
+  logo: ibm.png
+  tags:
+    - design
     - mobile
 
 - name: Pachinko 3D
   about: A 3D game of space themed Pachinko, Japanese pinball
+  thumbnail: unce1.jpg
+  company: Personal
+  logo: ibm.png
   tags:
     - design
     - code
-    - Unity 3D
-
-- name: Social Wall
-  about: Building a space exploration experience for a museum to celebrate Appolo's 50th anniversary
-  tags:
-    - design
-    - code
-    - installation
-
-- name: Watson Accelerator
-  about: Reimagining the experience of Watson Experience centers
-  tags:
-    - design
-    - design thinking
-    - Watson
-
-- name: Mobile for IBM Coud
-  about: Exploring how IBM Cloud can leverage mobile to build a developer community
-  tags:
-    - design
-    - design thinking
-    - cloud
-    - mobile
-
-- name: Sketch Notes
-  about: A tool that lets designers add comments to artboards and export them to share as PDFs
-  tags:
-    - design
-    - code
-    - CocoaScript
-    - JavaScript
-
-- name: Northstar
-  about: An iOS app that uses machine learning to identify and alert nearby users of wildfires to prevent disasters like Paradise
-  tags:
-    - design
-    - code
-    - Swift
-    - mobile
-    - Watson
+    - app
