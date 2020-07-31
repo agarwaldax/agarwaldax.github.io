@@ -1,0 +1,24 @@
+{
+  "name": "agarwaldax.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarwaldax/agarwaldax.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agarwaldax/agarwaldax.github.io/issues"
+  },
+  "homepage": "https://github.com/agarwaldax/agarwaldax.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
