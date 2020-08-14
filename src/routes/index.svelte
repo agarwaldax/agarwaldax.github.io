@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
   h1,
   figure,
   p {
@@ -18,7 +18,7 @@
   }
 
   img {
-    width: 100%;
+    width: 100px;
     max-width: 400px;
     margin: 0 0 1em 0;
   }
